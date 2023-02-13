@@ -14,6 +14,7 @@ public class Role {
 	@Id
 	@GeneratedValue
 	private int rid;
+	//hello how r u
 	private String rname;
 
 }
