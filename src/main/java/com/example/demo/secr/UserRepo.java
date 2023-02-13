@@ -16,4 +16,6 @@ public interface UserRepo  extends JpaRepository<OurUser, Integer>{
   
   @Query(("select r from OurUser u join u.roles r where u.uname=?1"))
   public abstract List<Role> getRoles(String userName);
+  //hii k
 }
+
