@@ -23,6 +23,7 @@ public class OurUser {
   private int uid;
   private String uname;
   private int password;
+  //hii
   @ManyToMany
   @JoinTable(name="user_role",
   joinColumns = {@JoinColumn(name="uid")},
